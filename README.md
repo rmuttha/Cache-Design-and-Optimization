@@ -13,7 +13,7 @@ The first step focuses on grasping the fundamental concepts of cache memory.
 - **Replacement Policy**: Determines which block to replace when the cache is full (e.g., LRU, FIFO).
 - **Write Policy**: How data is written to cache and main memory (Write-through or Write-back).
 
-## Next Steps
+
 
 ### 2. Define Cache Parameters
 - **Cache Size (C)**: Total size of the cache in bytes.
@@ -32,7 +32,8 @@ The first step focuses on grasping the fundamental concepts of cache memory.
   - Index Bits: \( \log_2(S) \)
   - Block Offset: \( \log_2(B) \)
   - Tag Bits: \( N - \text{Index Bits} - \text{Block Offset Bits} \)
-
+  - 
+## Next Steps
 ### 4. Data Structures
 Implement cache structure using C++:
 ```cpp
