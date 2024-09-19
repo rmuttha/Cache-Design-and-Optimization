@@ -1,0 +1,7 @@
+Function DefineCacheParameters(C, B, A):
+    S = C / (B * A)    // Calculate the number of sets
+    Output "Cache Size: ", C
+    Output "Block Size: ", B
+    Output "Associativity: ", A
+    Output "Number of Sets: ", S
+End Function
