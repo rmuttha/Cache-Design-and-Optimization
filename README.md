@@ -4,7 +4,6 @@
 This project involves designing and implementing a custom cache system, which includes understanding and applying various aspects of cache architecture. 
 The first step focuses on grasping the fundamental concepts of cache memory.
 
-## Completed Steps
 
 ### 1. Understanding Cache Basics
 - **Cache Types**: Direct-mapped, fully associative, set-associative.
@@ -32,8 +31,8 @@ The first step focuses on grasping the fundamental concepts of cache memory.
   - Index Bits: \( \log_2(S) \)
   - Block Offset: \( \log_2(B) \)
   - Tag Bits: \( N - \text{Index Bits} - \text{Block Offset Bits} \)
-  - 
-## Next Steps
+    
+
 ### 4. Data Structures
 Implement cache structure using C++:
 ```cpp
